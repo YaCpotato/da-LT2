@@ -33,7 +33,7 @@ Portfolio<br>
 
 ---?image=https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/1790a008-96d6-11e6-8047-00163ed833e7/669733406/python-screenshot.png&position=right&size=20% 40%
 
-### Pythonとは
+### [Python](https://www.python.org/)とは
 <hr>
 みんな大好き   
 - Simple is better than complex
@@ -56,14 +56,14 @@ pip install --upgrade pip
 ---
 
 ### Web,スマホ開発
-- **Django**(多機能・安全性)
-- **Flask**(シンプル・拡張性・機械学習API)
-- Flutter(マルチプラットフォーム)
+- **[Django](https://www.djangoproject.com/)**(多機能・安全性)
+- **[Flask](https://a2c.bitbucket.io/flask/)**(シンプル・拡張性・機械学習API)
+- [Flutter](https://flutter.dev/)(マルチプラットフォーム)
 
 +++
 
 @snap[west span-45]
-# Django
+## [Django](https://www.djangoproject.com/)
 @snapend
 
 @snap[north-east span-60]
@@ -79,10 +79,11 @@ python manage.py runserver
 +++
 
 @snap[west span-45]
-# Flask
+## [Flask](https://a2c.bitbucket.io/flask/)
 @snapend
 
 @snap[north-east span-60]
+インストール▼
 ```bash
 pip install Flask
 ```
@@ -99,7 +100,7 @@ def hello():
 if __name__ == "__main__":
     app.run(debug=True)
 ```
-
+サーバー構築▼
 ```
 python app.py
 ```
@@ -110,10 +111,10 @@ python app.py
 ---
 
 ### データ分析、機械学習
-- pandas(データ整備、鳥瞰)
-- scikit-learn(モデリング・回帰,分類)
-- Tensorflow,Keras,PyTorch(ディープラーニング)
-- Matplotlib,Plotly,Dash,Streamlit,pyDeck(可視化)
+- [pandas](https://pandas.pydata.org/)(データ整備、鳥瞰)
+- [scikit-learn](https://scikit-learn.org/stable/)(モデリング・回帰,分類)
+- [Tensorflow](https://www.tensorflow.org/),[Keras](https://keras.io/ja/),[PyTorch](https://pytorch.org/)(ディープラーニング)
+- [Matplotlib](https://matplotlib.org/),[Plotly](https://plotly.com/python/),[Dash](https://dash.plotly.com/),[Streamlit](https://www.streamlit.io/),[pyDeck](https://deckgl.readthedocs.io/en/stable/)(可視化)
 
 +++
 
@@ -172,25 +173,28 @@ pdp.ProfileReport(gapminder_df).to_file("output.html")
 |Plotly||○||
 |Dash,Streamlit|||○|
 
+<hr>
+
 pyDeck・・・圧倒的に上記ライブラリより地図描画が優れている
 
 +++
 
 ### 数値計算
-- SciPy
+- [SciPy](https://www.scipy.org/)
   - フーリエ変換
   - LU分解
   - 信号処理
-- numpy
-　- numpy配列超便利
- - Pure Pythonより計算は早い
+- [Numpy](https://numpy.org/)
+　- Numpy配列もはや国際条例
+ - Pure Pythonより計算が高速
 
 +++
 
 #### 数値計算の例
 
 @snap[west span-45]
-# 大きさNの正方行列どうしの行列行列積
+### 大きさNの正方行列の
+### 行列行列積
 インポート系は割愛
 
 @snapend

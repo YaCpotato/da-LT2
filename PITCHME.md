@@ -96,10 +96,9 @@ python manage.py runserver
 
 @snap[east span-60]
 ```python
-"""
-コマンドにてFlaskのインストール▼
-pip install Flask
-"""
+# コマンドにてFlaskのインストール▼
+# pip install Flask
+
 # app.py作成▼
 from flask import Flask
 app = Flask(__name__)
@@ -117,9 +116,9 @@ python app.py
 ```
 
 @snap[south span-100]
-@[1-4](Flaskのインストール)
-@[6,7](インポートとアプリの初期化)
-@[10-12](ルートアクセス時の処理記述)
+@[1,2](Flaskのインストール)
+@[5,6](インポートとアプリの初期化)
+@[8-11](ルートアクセス時の処理記述)
 @[13,14](main文にサーバー起動を書く)
 @[16,17](サーバー起動)
 @snapend
@@ -273,6 +272,15 @@ np.dot(a, b)
 
 ---
 
+### いかがでしたか？
+
+---
+
+### 以下のことが伝われば幸いです
+- Pythonのシンプルさ
+- Pythonは守備範囲の広い言語
+
+---
 ### いかにPythonがシンプルさを追求しているか
 ちなみにC言語もmkl cblasというライブラリを使えば高速に演算できますが、低レベルに近い言語という特性上そこそこのコード量になります。[参考](https://www.xlsoft.com/jp/products/intel/perflib/mkl/11.2/mkl_tutorial_c/GUID-36BFBCE9-EB0A-43B0-ADAF-2B65275726EA.htm)
 

@@ -5,7 +5,7 @@ layout : center
 theme : template
 theme-override : little.css
 #logo : gitpitch_assets/images/logo.png
-highlight : mono-blue
+highlight : white
 code-line-numbers : true
 background-opacity : 75
 footnote : "Twitter : @yasshi_dayooon"

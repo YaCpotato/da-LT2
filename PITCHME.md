@@ -111,6 +111,9 @@ def hello():
 
 if __name__ == "__main__":
     app.run(debug=True)
+    
+# サーバー起動▼
+python app.py
 ```
 
 @snap[south span-100]
@@ -118,12 +121,7 @@ if __name__ == "__main__":
 @[6,7](インポートとアプリの初期化)
 @[10-12](ルートアクセス時の処理記述)
 @[13,14](main文にサーバー起動を書く)
-@snapend
-
-サーバー起動▼
-```
-python app.py
-```
+@[16,17](サーバー起動)
 @snapend
 
 +++

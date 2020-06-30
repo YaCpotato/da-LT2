@@ -284,7 +284,7 @@ np.dot(a, b)
 ---
 
 ### 以下のことが伝われば幸いです
-- Pythonのシンプルさ
+- Pythonのシンプルさ  
 ちなみにC言語もmkl cblasというライブラリを使えば高速に演算できますが、低レベルに近い言語という特性上そこそこのコード量になります。[参考](https://www.xlsoft.com/jp/products/intel/perflib/mkl/11.2/mkl_tutorial_c/GUID-36BFBCE9-EB0A-43B0-ADAF-2B65275726EA.htm)
 - Pythonは守備範囲の広い言語
 

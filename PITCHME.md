@@ -7,6 +7,7 @@ Webをしていたピカピカ一年生の
 ---
 
 ### お前、誰よ
+<hr>
 #### やっしー
 - メンバーズデータアドベンチャー　データアーキテクト
 - Twitter @yasshi_dayooon
@@ -18,17 +19,17 @@ Portfolio<br>
 ---
 
 ### Pythonでできること
-
+<hr>
 - Web、スマホ開発
 - データ分析、機械学習
 - 数値計算
 - クラウド
 - API
 
----?image=https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/1790a008-96d6-11e6-8047-00163ed833e7/669733406/python-screenshot.png&position=right&size=30% 40%
+---?image=https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/1790a008-96d6-11e6-8047-00163ed833e7/669733406/python-screenshot.png&position=right&size=20% 40%
 
 ### Pythonとは
-
+<hr>
 みんな大好きPython  
 - Simple is better than complex
 - Complex is better than complicated

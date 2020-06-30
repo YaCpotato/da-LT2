@@ -1,1 +1,29 @@
+# Layout
+layout : center
 
+# Look-and-Feel
+theme : template
+theme-override : app.css
+#logo : gitpitch_assets/images/logo.png
+highlight : mono-blue
+code-line-numbers : true
+background-opacity : 75
+footnote : "Twitter : @yasshi_dayooon"
+
+# Behavior
+transition : none
+published : true
+print-fragments : true
+print-notes     : false
+print-footer    : true
+eager-loading : true
+
+# Fro Twitter Card And Other
+title : "Pythonでできること【爆速ガイド付き】"
+description : "Webエンジニアをしていたピカピカ一年生データエンジニアがまとめたPythonまとめ-ソースを添えて-"
+thumbnail : "gitpitch_assets/img/screenshot.png"
+##149DFF
+
+# Plugins
+charts : true
+mathjax : TeX-AMS_HTML-full

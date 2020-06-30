@@ -53,6 +53,8 @@ source bin/activate
 pip install --upgrade pip
 ```
 
+---
+
 ### Web,スマホ開発
 - **Django**(多機能・安全性)
 - **Flask**(シンプル・拡張性・機械学習API)

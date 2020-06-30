@@ -21,7 +21,7 @@ eager-loading : true
 # Fro Twitter Card And Other
 title : "Pythonでできること【爆速ガイド付き】"
 description : "Webエンジニアをしていたピカピカ一年生データエンジニアがまとめたPythonまとめ-ソースを添えて-"
-thumbnail : "gitpitch_assets/img/screenshot.png"
+thumbnail : "PythonAndLibraries.png"
 ##149DFF
 
 # Plugins

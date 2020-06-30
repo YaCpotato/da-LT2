@@ -52,6 +52,12 @@ cd [仮想環境名]
 source bin/activate
 pip install --upgrade pip
 ```
+@snap[south span-100]
+@[1](Pythonの仮想環境を構築)
+@[2](できたフォルダ内に移動)
+@[3](仮想環境のアクティベート)
+@[4](pipのアップグレード)
+@snapend
 
 ---
 

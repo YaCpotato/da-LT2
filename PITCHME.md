@@ -11,6 +11,8 @@ Webをしていたピカピカ一年生の
 - メンバーズデータアドベンチャー　データアーキテクト
 - Twitter @yasshi_dayooon
 
+<hr>
+Portfolio
 ![Portfolio](qr20200630152708240.png)
 
 ---
@@ -32,6 +34,7 @@ Webをしていたピカピカ一年生の
 - Complex is better than complicated
 - Flat is better than nested
 
-[The Zen of Python](https://www.pythonic-exam.com/pythonic)より抜粋
+[The Zen of Python](https://www.pythonic-exam.com/pythonic)より一部抜粋
+
 ---
 ---

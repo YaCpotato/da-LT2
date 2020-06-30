@@ -12,7 +12,7 @@ Webをしていたピカピカ一年生の
 - Twitter @yasshi_dayooon
 
 <hr>
-Portfolio
+Portfolio<br>
 ![Portfolio](qr20200630152708240.png)
 
 ---
@@ -25,7 +25,7 @@ Portfolio
 - クラウド
 - API
 
----?image=https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/1790a008-96d6-11e6-8047-00163ed833e7/669733406/python-screenshot.png&position=right&size=40% 40%
+---?image=https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/1790a008-96d6-11e6-8047-00163ed833e7/669733406/python-screenshot.png&position=right&size=50% 40%
 
 ### Pythonとは
 

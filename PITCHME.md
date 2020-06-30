@@ -72,7 +72,7 @@ pip install --upgrade pip
 ## [Django](https://www.djangoproject.com/)
 @snapend
 
-@snap[north-east span-60]
+@snap[east span-60]
 ```bash
 pip install django
 django-admin startproject [PROJECT_NAME] .
@@ -94,7 +94,7 @@ python manage.py runserver
 ## [Flask](https://a2c.bitbucket.io/flask/)
 @snapend
 
-@snap[north-east span-60]
+@snap[east span-60]
 インストール▼
 ```bash
 pip install Flask
@@ -143,13 +143,11 @@ python app.py
 
 #### [pandas-profiling](https://github.com/pandas-profiling/pandas-profiling)
 
-```
+```python
 pip install plotly
 pip install pandas
 pip install pandas-profiling
-```
 
-```python
 import pandas as pd
 import pandas_profiling as pdp
 import plotly.express as px
@@ -159,9 +157,10 @@ pdp.ProfileReport(gapminder_df).to_file("output.html")
 ```
 
 @snap[south span-100]
-@[1-3](ライブラリのインポート)
-@[5](gapminderデータセットの読み込み)
-@[6](pandas-profilingでHTML出力)
+@[1-3](ライブラリのインストール)
+@[5-7](ライブラリのインポート)
+@[9](gapminderデータセットの読み込み)
+@[10](pandas-profilingでHTML出力)
 @snapend
 
 +++

@@ -2,7 +2,7 @@
 layout : center
 
 # Look-and-Feel
-theme : template
+theme : sky
 #theme-override : app.css
 #logo : gitpitch_assets/images/logo.png
 highlight : mono-blue

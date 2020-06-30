@@ -52,7 +52,7 @@ cd [仮想環境名]
 source bin/activate
 pip install --upgrade pip
 ```
-@snap[south span-100]
+@snap[south span-150]
 @[1](Pythonの仮想環境を構築)
 @[2](できたフォルダ内に移動)
 @[3](仮想環境のアクティベート)
@@ -76,10 +76,16 @@ pip install --upgrade pip
 ```bash
 pip install django
 django-admin startproject [PROJECT_NAME] .
-cd [PROJECT_NAME]
 python manage.py migrate
 python manage.py runserver
 ```
+@snapend
+
+@snap[south span-100]
+@[1](Djangoのインストール)
+@[2](Djangoプロジェクトを作成)
+@[3](データベースのマイグレーション)
+@[4](サーバー起動)
 @snapend
 
 +++
@@ -94,7 +100,7 @@ python manage.py runserver
 pip install Flask
 ```
 app.py作成▼
-```
+```python
 from flask import Flask
 app = Flask(__name__)
 
@@ -106,7 +112,14 @@ def hello():
 if __name__ == "__main__":
     app.run(debug=True)
 ```
-サーバー構築▼
+
+@snap[south span-100]
+@[1,2](インポートとアプリの初期化)
+@[4-7](ルートアクセス時の処理記述)
+@[8,9](main文にサーバー起動を書く)
+@snapend
+
+サーバー起動▼
 ```
 python app.py
 ```
@@ -139,12 +152,17 @@ pip install pandas-profiling
 ```python
 import pandas as pd
 import pandas_profiling as pdp
-
 import plotly.express as px
 
 gapminder_df = px.data.gapminder()
 pdp.ProfileReport(gapminder_df).to_file("output.html")
 ```
+
+@snap[south span-100]
+@[1-3](ライブラリのインポート)
+@[5](gapminderデータセットの読み込み)
+@[6](pandas-profilingでHTML出力)
+@snapend
 
 +++
 
@@ -231,6 +249,12 @@ for(int i=0;i<N;i++){
 
 ```
 
+@snap[south span-100]
+@[1-3](double型の大きさNの正方行列を定義)
+@[5-10](行列の中身に値を入れる -小数点以下6桁まで入る-)
+@[12-18](行列行列積の計算)
+@snapend
+
 Python
 
 ```python
@@ -238,6 +262,20 @@ a = np.array([1, 2])
 b = np.array([4, 3])
 np.dot(a, b) # まずは２次元ベクトル同士の内積から。
 ```
+
+@snap[south span-100]
+@[1-3](double型の大きさNの正方行列を定義)
+@[5-10](行列の中身に値を入れる -小数点以下6桁まで入る-)
+@[12-18](行列行列積の計算)
+@snapend
+
+@snap[south span-100]
+@[1](Djangoのインストール)
+@[2](Djangoプロジェクトを作成)
+@[3](データベースのマイグレーション)
+@[4](サーバー起動)
+@snapend
+
 @snapend
 
 +++

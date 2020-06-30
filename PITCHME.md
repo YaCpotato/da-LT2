@@ -96,9 +96,10 @@ python manage.py runserver
 
 @snap[east span-60]
 ```python
-# インストール▼
+"""
+コマンドにてFlaskのインストール▼
 pip install Flask
-
+"""
 # app.py作成▼
 from flask import Flask
 app = Flask(__name__)
@@ -113,10 +114,10 @@ if __name__ == "__main__":
 ```
 
 @snap[south span-100]
-@[1](Flaskのインストール)
-@[4,5](インポートとアプリの初期化)
-@[7-10](ルートアクセス時の処理記述)
-@[11,12](main文にサーバー起動を書く)
+@[1-4](Flaskのインストール)
+@[6,7](インポートとアプリの初期化)
+@[10-12](ルートアクセス時の処理記述)
+@[13,14](main文にサーバー起動を書く)
 @snapend
 
 サーバー起動▼
@@ -144,9 +145,12 @@ python app.py
 #### [pandas-profiling](https://github.com/pandas-profiling/pandas-profiling)
 
 ```python
+"""
+以下コマンドにてライブラリのインストール▼
 pip install plotly
 pip install pandas
 pip install pandas-profiling
+"""
 
 import pandas as pd
 import pandas_profiling as pdp
@@ -157,10 +161,10 @@ pdp.ProfileReport(gapminder_df).to_file("output.html")
 ```
 
 @snap[south span-100]
-@[1-3](ライブラリのインストール)
-@[5-7](ライブラリのインポート)
-@[9](gapminderデータセットの読み込み)
-@[10](pandas-profilingでHTML出力)
+@[1-6](ライブラリのインストール)
+@[8-10](ライブラリのインポート)
+@[12](gapminderデータセットの読み込み)
+@[13](pandas-profilingでHTML出力)
 @snapend
 
 +++
@@ -259,15 +263,14 @@ for(int i=0;i<N;i++){
 Python
 
 ```python
-a = np.array([1, 2])
-b = np.array([4, 3])
-np.dot(a, b) # まずは２次元ベクトル同士の内積から。
+a = np.array([N, N])
+b = np.array([N, N])
+np.dot(a, b)
 ```
 
 @snap[south span-100]
-@[1-3](double型の大きさNの正方行列を定義)
-@[5-10](行列の中身に値を入れる -小数点以下6桁まで入る-)
-@[12-18](行列行列積の計算)
+@[1,2](Numpy配列を定義)
+@[3](行列行列積の計算)
 @snapend
 
 ---

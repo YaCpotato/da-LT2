@@ -91,6 +91,9 @@ python manage.py runserver
 @snapend
 
 +++
+![Django](https://mebee.info/wp-content/uploads/2019/12/sqlcmd-24.png)
++++
+
 
 @snap[west span-45]
 ## [Flask](https://a2c.bitbucket.io/flask/)

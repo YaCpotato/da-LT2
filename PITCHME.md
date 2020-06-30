@@ -8,7 +8,7 @@ Webをしていたピカピカ一年生の
 
 ### お前、誰よ
 <hr>
-#### やっしー
+### やっしー
 - メンバーズデータアドベンチャー
 - データアーキテクト・アナリスト
 - Twitter @yasshi_dayooon
@@ -59,6 +59,8 @@ pip install --upgrade pip
 @[4](pipのアップグレード)
 @snapend
 
+---
+### Web,スマホ開発
 ---
 
 ### Web,スマホ開発
@@ -123,8 +125,8 @@ python app.py
 @[16,17](サーバー起動)
 @snapend
 
-+++
-
+---
+### データ分析、機械学習
 ---
 
 ### データ分析、機械学習
@@ -201,7 +203,9 @@ pdp.ProfileReport(gapminder_df).to_file("output.html")
 
 pyDeck・・・圧倒的に上記ライブラリより地図描画が優れている
 
-+++
+---
+### 数値計算
+---
 
 ### 数値計算
 - [SciPy](https://www.scipy.org/)
@@ -278,10 +282,13 @@ np.dot(a, b)
 
 ### 以下のことが伝われば幸いです
 - Pythonのシンプルさ
+ちなみにC言語もmkl cblasというライブラリを使えば高速に演算できますが、低レベルに近い言語という特性上そこそこのコード量になります。[参考](https://www.xlsoft.com/jp/products/intel/perflib/mkl/11.2/mkl_tutorial_c/GUID-36BFBCE9-EB0A-43B0-ADAF-2B65275726EA.htm)
 - Pythonは守備範囲の広い言語
 
 ---
-### いかにPythonがシンプルさを追求しているか
-ちなみにC言語もmkl cblasというライブラリを使えば高速に演算できますが、低レベルに近い言語という特性上そこそこのコード量になります。[参考](https://www.xlsoft.com/jp/products/intel/perflib/mkl/11.2/mkl_tutorial_c/GUID-36BFBCE9-EB0A-43B0-ADAF-2B65275726EA.htm)
-
+### まとめ
+@ul
+- C言語のように難しくないのでプログラミング習いたてにはふさわしい言語
+- 文法や挙動は明らかに違う→Pythonに依存しきる前にJava,C,C++などに移動
+@ulend
 ---

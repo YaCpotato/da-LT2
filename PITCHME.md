@@ -25,7 +25,7 @@ Portfolio<br>
 - クラウド
 - API
 
----?image=https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/1790a008-96d6-11e6-8047-00163ed833e7/669733406/python-screenshot.png&position=right&size=50% 40%
+---?image=https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/1790a008-96d6-11e6-8047-00163ed833e7/669733406/python-screenshot.png&position=right&size=30% 40%
 
 ### Pythonとは
 

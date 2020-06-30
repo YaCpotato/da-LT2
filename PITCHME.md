@@ -167,6 +167,7 @@ pdp.ProfileReport(gapminder_df).to_file("output.html")
 
 #### プロットライブラリについて
 |ライブラリ\インタラクティブ|低い|普通|高い|
+|:--:|:--:|:--:|:--:|
 |Matplotlib (&seaborn)|○|||
 |Plotly||○||
 |Dash,Streamlit|||○|

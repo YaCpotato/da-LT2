@@ -3,7 +3,7 @@ layout : center
 
 # Look-and-Feel
 theme : white
-#theme-override : app.css
+theme-override : app2.css
 #logo : gitpitch_assets/images/logo.png
 highlight : mono-blue
 code-line-numbers : true

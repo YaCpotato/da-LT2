@@ -2,7 +2,7 @@
 layout : center
 
 # Look-and-Feel
-theme : template
+theme : black
 theme-override : little.css
 #logo : gitpitch_assets/images/logo.png
 highlight : white

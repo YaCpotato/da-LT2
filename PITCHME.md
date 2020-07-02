@@ -1,3 +1,4 @@
+---?color=linear-gradient(to left, #366E9C, #FFD84A)
 ## Pythonでできること  
 ### 【爆速ガイド付き】
 Webをしていたピカピカ一年生の  
@@ -61,7 +62,7 @@ pip install --upgrade pip
 @[4](pipのアップグレード)
 @snapend
 
----
+---?color=linear-gradient(to left, #366E9C, #FFD84A)
 ### Web,スマホ開発
 ---
 
@@ -130,7 +131,7 @@ python app.py
 @[16,17](サーバー起動)
 @snapend
 
----
+---?color=linear-gradient(to left, #366E9C, #FFD84A)
 ### データ分析、機械学習
 ---
 
@@ -140,7 +141,7 @@ python app.py
 - [Tensorflow](https://www.tensorflow.org/),[Keras](https://keras.io/ja/),[PyTorch](https://pytorch.org/)(ディープラーニング)
 - [Matplotlib](https://matplotlib.org/),[Plotly](https://plotly.com/python/),[Dash](https://dash.plotly.com/),[Streamlit](https://www.streamlit.io/),[pyDeck](https://deckgl.readthedocs.io/en/stable/)(可視化)
 
-+++
++++?color=linear-gradient(to left, #366E9C, #FFD84A)
 
 ### Tips
 
@@ -199,7 +200,7 @@ pdp.ProfileReport(gapminder_df).to_file("output.html")
 
 #### 基礎分析、インサイトの要となるような情報を、データフレームから網羅的にHTML化してくれる
 
-+++
++++?color=linear-gradient(to left, #366E9C, #FFD84A)
 #### プロットライブラリについて
 +++
 
@@ -214,7 +215,7 @@ pdp.ProfileReport(gapminder_df).to_file("output.html")
 
 pyDeck・・・圧倒的に上記ライブラリより地図描画が優れている
 
----
+---?color=linear-gradient(to left, #366E9C, #FFD84A)
 ### 数値計算
 ---
 
@@ -227,7 +228,7 @@ pyDeck・・・圧倒的に上記ライブラリより地図描画が優れて�
 　- Numpy配列もはや国際条例
  - Pure Pythonより計算が高速
 
-+++
++++?color=linear-gradient(to left, #366E9C, #FFD84A)
 
 #### 数値計算の例
 #### 大きさNの正方行列の行列行列積(C,Python)
@@ -279,7 +280,7 @@ np.dot(a, b)
 @[3](行列行列積の計算)
 @snapend
 
----
+---?color=linear-gradient(to left, #366E9C, #FFD84A)
 
 ### いかがでしたか？
 
@@ -305,7 +306,8 @@ np.dot(a, b)
 - ソースコード書けます。ハイライトも行番号もできます
 - アニメーションが簡単です
 - GAのトラッキングコードも埋め込めます
----
+
+---?color=linear-gradient(to left, #366E9C, #FFD84A)
 # Have a nice weekend!
 ### Thank you for listening
 ---

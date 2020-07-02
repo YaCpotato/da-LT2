@@ -33,7 +33,7 @@ Portfolio<br>
 - クラウド
 - API
 
----?image=https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/1790a008-96d6-11e6-8047-00163ed833e7/669733406/python-screenshot.png&position=right&size=20% 40%
+---?image=Python-logo-320x320.png&position=right&size=20% 40%
 
 ### [Python](https://www.python.org/)とは
 <hr>

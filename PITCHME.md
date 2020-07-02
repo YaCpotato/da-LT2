@@ -9,12 +9,14 @@ Webをしていたピカピカ一年生の
 
 # お前、誰よ
 
----
+---?image=https://3.bp.blogspot.com/-f1KvBQ_l6VQ/V8jqcEt1wZI/AAAAAAAA9fg/khpoh3fO6AQ7EB-4GO8GQZKqqTPt6VgeACLcB/s800/mahoutsukai_man.png&position=right
 
+@snap[west span-50]
 ## やっしー
 - データアーキテクト・アナリスト
 - Twitter @yasshi_dayooon
-メンバーズデータアドベンチャーの4月の大型アップデートで追加されたキャラ。操作が難しい。上級者向け
+メンバーズデータアドベンチャーの4月の大型アップデートで追加されたキャラ。打たれ弱いのでヒーラー必須
+@snapend
 
 <hr>
 Portfolio<br>

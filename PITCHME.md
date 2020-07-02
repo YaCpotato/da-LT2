@@ -9,7 +9,7 @@ Webをしていたピカピカ一年生の
 
 # お前、誰よ
 
----?image=https://3.bp.blogspot.com/-f1KvBQ_l6VQ/V8jqcEt1wZI/AAAAAAAA9fg/khpoh3fO6AQ7EB-4GO8GQZKqqTPt6VgeACLcB/s800/mahoutsukai_man.png&position=right
+---?image=https://3.bp.blogspot.com/-f1KvBQ_l6VQ/V8jqcEt1wZI/AAAAAAAA9fg/khpoh3fO6AQ7EB-4GO8GQZKqqTPt6VgeACLcB/s800/mahoutsukai_man.png&position=right&size=20% 40%
 
 @snap[west span-50]
 ## やっしー

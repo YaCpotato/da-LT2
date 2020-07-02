@@ -1,3 +1,8 @@
 .reveal ul {
     line-height: 2;
 }
+
+body {
+    background-color:black;
+    color:white;
+}
